@@ -21,22 +21,22 @@ def range_check(mark, subject):
     
 
 # Input Mark for Bangla 
-bangla = input("Enter Bangla Marks: ")
+bangla = input("\nEnter Bangla Marks: ")
 range_check(bangla, "Bangla")
 
 
 # Input Mark for English
-english = input("Enter English Marks: ")
+english = input("\nEnter English Marks: ")
 range_check(english, "English")
 
 
 # Input Mark for Math
-math = input("Enter Math Marks: ")
+math = input("\nEnter Math Marks: ")
 range_check(math, "Math")
 
 
 # Input Mark for Science
-science = input("Enter Science Marks: ")
+science = input("\nEnter Science Marks: ")
 range_check(science, "Science")
 
 # avaerage calculation
@@ -61,6 +61,6 @@ else :
 
 
 # print result
-print("Your Avarage mark is: {} and  Grade is: {}".format(average,grade))
+print("\nYour Avarage mark is: {} and  Grade is: {}\n".format(average,grade))
 
 
